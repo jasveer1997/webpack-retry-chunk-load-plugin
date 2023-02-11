@@ -114,6 +114,7 @@ export class RetryChunkLoadPlugin {
               trailingComma: 'es5',
               singleQuote: true,
               parser: 'babel',
+              semi: true,
             })
           );
         }
